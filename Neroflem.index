@@ -5,10 +5,10 @@
 		<description>The content from the core rulebooks.</description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
 		<update version="0.2.4">
-			<file name="Neroflem.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
+			<file name="Neroflem.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/Neroflem.index?token=Af005ddj7qDAR454hd7fJUN3NU93A9ZDks5ceFhWwA%3D%3D" />
 		</update>
 	</info>
 	<files>
-		<file name="OneShots.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook.index" />
+		<file name="Adventure.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/Adventure/Adventure.index?token=Af005ddj7qDAR454hd7fJUN3NU93A9ZDks5ceFhWwA%3D%3D" />
 	</files>
 </index>
