@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="Adventure.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/Adventure/Adventure.index?token=Af005ddj7qDAR454hd7fJUN3NU93A9ZDks5ceFhWwA%3D%3D" />
+		<file name="Adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/Adventure/Adventure.xml?token=Af005ddj7qDAR454hd7fJUN3NU93A9ZDks5ceFhWwA%3D%3D" />
 	</files>
 </index>
