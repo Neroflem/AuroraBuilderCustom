@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Neroflem</name>custom adventures.</description>
+		<name>Neroflem</name>
+		<description>The content from custom adventures.</description>
 		<author url="https://github.com/Neroflem/AuroraBuilderCustom">Neroflem</author>
 		<update version="0.0.1">
 			<file name="Neroflem.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/Neroflem.index" />
