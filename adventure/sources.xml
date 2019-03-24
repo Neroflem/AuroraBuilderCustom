@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Neroflem</name>
+		<description>The content from Neroflem.</description>
+		<author url="https://geekandsundry.com/shows/critical-role/">Critical Role</author>
+		<update version="0.0.1">
+			<file name="neroflem.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/neroflem.index" />
+		</update>
+	</info>
+	<files>
+		<!-- items -->
+    <file name="adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/adventure.xml" />
+	</files>
+</index>
