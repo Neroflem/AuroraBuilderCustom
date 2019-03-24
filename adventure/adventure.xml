@@ -4,7 +4,7 @@
 		<name>Adventure</name>
 		<description></description>
 		<author url="https://github.com/Neroflem/AuroraBuilderCustom">Neroflem</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/adventure.xml" />
 		</update>
 	</info>
@@ -25,7 +25,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type" addition="longsword">Weapon</set>
 			<set name="attunement">true</set>
-			<set name="rarity">Very Rare</set>
+			<set name="rarity">Rare</set>
 			<set name="weapon">Longsword</set>
 		</setters>
 		<rules />
