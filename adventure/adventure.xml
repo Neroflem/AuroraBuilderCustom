@@ -4,13 +4,13 @@
 		<name>Adventure</name>
 		<description></description>
 		<author url="https://github.com/Neroflem/AuroraBuilderCustom">Neroflem</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/adventure.xml" />
 		</update>
 	</info>
 	
 	<!-- simple -->
-	<element name="TestClub" type="Weapon" source="Player’s Handbook" id="ID_NERO_ADVENTURE_WEAPON_CLUB">
+	<element name="TestClub" type="Weapon" source="Neroflem" id="ID_NERO_ADVENTURE_WEAPON_CLUB">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
 		<description>
 			<p></p>
@@ -23,5 +23,23 @@
 			<set name="damage" type="bludgeoning">1d4</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB</set>
 		</setters>
+	</element>
+	<element name="Blight" type="Magic Item" source="Neroflem" id="ID_NERO_ADVENTURE_MAGIC_WEAPON_BLIGHT">
+		<description>
+			<p>The magic sword thrust into Vineblossom.</p>
+			<p class="indent">Curse: After attuning to this sword.</p>
+		</description>
+		<setters>
+			<set name="keywords">any sword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="name-format">Blight {{parent}}</set>
+		</setters>
+		<rules />
 	</element>
 </elements>
