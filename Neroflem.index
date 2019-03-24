@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Neroflem</name>
-		<description>The content from the core rulebooks.</description>
-		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
-		<update version="0.2.4">
+		<name>Neroflem</name>custom adventures.</description>
+		<author url="https://github.com/Neroflem/AuroraBuilderCustom">Neroflem</author>
+		<update version="0.0.1">
 			<file name="Neroflem.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/Neroflem.index" />
 		</update>
 	</info>
