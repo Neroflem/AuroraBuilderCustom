@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/sources.xml" />
-		<file name="adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/adventure.xml" />
+		<file name="sources.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/neroflem/sources.xml" />
+		<file name="adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/neroflem/adventure.xml" />
 	</files>
 </index>
