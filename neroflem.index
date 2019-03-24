@@ -5,10 +5,10 @@
 		<description>The content from custom adventures.</description>
 		<author url="https://github.com/Neroflem/AuroraBuilderCustom">Neroflem</author>
 		<update version="0.0.1">
-			<file name="Neroflem.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/Neroflem.index" />
+			<file name="neroflem.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/neroflem.index" />
 		</update>
 	</info>
 	<files>
-		<file name="Adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/Adventure/Adventure.xml" />
+		<file name="adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/adventure.xml" />
 	</files>
 </index>
