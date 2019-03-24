@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/sources.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/neroflem/sources.xml" />
 		</update>
 	</info>
 	<element name="Neroflem" type="Source" source="Neroflem" id="ID_NERO_SOURCE_NEROFLEM">
 		<description>
-			<![CDATA[<p>Critical Role has taken the roleplaying world by storm.</p>]]>
+			<![CDATA[<p>Custom stuff.</p>]]>
 		</description>
 		<setters>
 			<set name="abbreviation">NERO</set>
