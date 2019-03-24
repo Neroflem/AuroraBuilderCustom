@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<index>
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
 	<info>
-		<name>Neroflem</name>
-		<description>The content from Neroflem.</description>
-		<author url="https://geekandsundry.com/shows/critical-role/">Critical Role</author>
-		<update version="0.0.1">
-			<file name="neroflem.index" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/neroflem.index" />
+		<update version="0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/sources.xml" />
 		</update>
 	</info>
-	<files>
-		<!-- items -->
-    <file name="adventure.xml" url="https://raw.githubusercontent.com/Neroflem/AuroraBuilderCustom/master/adventure/adventure.xml" />
-	</files>
-</index>
+	<element name="Neroflem" type="Source" source="Neroflem" id="ID_NERO_SOURCE_NEROFLEM">
+		<description>
+			<![CDATA[<p>Critical Role has taken the roleplaying world by storm.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">NERO</set>
+			<set name="url"></set>
+			<set name="author" abbreviation="MM" url="https://github.com/Neroflem/AuroraBuilderCustom">Neroflem</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
