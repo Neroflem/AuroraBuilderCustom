@@ -10,35 +10,23 @@
 	</info>
 	
 	<!-- simple -->
-	<element name="TestClub" type="Weapon" source="Neroflem" id="ID_NERO_ADVENTURE_WEAPON_CLUB">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
+	<element name="Blight" type="Magic Item" source="Neroflem" id="ID_NERO_ADVENTURE_MAGIC_WEAPON_LONGSWORD_BLIGHT">
 		<description>
-			<p></p>
+			<p>The magic sword thrust into Vineblossom is imbued with dark magic. It grants no bonus to attack or damage.</p>
+			<p class="indent">Anyone who attempts to carry the sword without being attuned must succeed on a DC 13 Wisdom saving throw or be frightened, as if affected by the <em>antipathy</em> spell.</p>
+			<p class="indent"> </p>
+			<p class="indent"><strong><em>Curse:</em></strong> After attuning to this sword, the bearer finds that no plant life will grow in their presence. The grass they sleep upon is dead in the morning; anything they plant withers instantly; spending a week in the same place causes surrounding plants and crops to wither away.</p>
+			<p class="indent">Only <em>remove curse</em>, <em>greater restoration</em>, or similar magic can end the attunement and effect.</p>
 		</description>
 		<setters>
-			<set name="category">Weapons</set>
-			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="2">2 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="damage" type="bludgeoning">1d4</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB</set>
-		</setters>
-	</element>
-	<element name="Blight" type="Magic Item" source="Neroflem" id="ID_NERO_ADVENTURE_MAGIC_WEAPON_BLIGHT">
-		<description>
-			<p>The magic sword thrust into Vineblossom.</p>
-			<p class="indent">Curse: After attuning to this sword.</p>
-		</description>
-		<setters>
-			<set name="keywords">any sword</set>
+			<set name="keywords">longsword</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type" addition="any sword">Weapon</set>
+			<set name="type" addition="longsword">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Very Rare</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
-			<set name="name-format">Blight {{parent}}</set>
+			<set name="weapon">Longsword</set>
 		</setters>
 		<rules />
 	</element>
